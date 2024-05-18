@@ -2,21 +2,21 @@
 
 
 ## Overview 
-A logistic regression model was used in this project to predict based on the following variables if a loan is a "healthy loan" (0) or a "high-risk loan" (1) or 'loan_status':
- - 'loan_size' (how much money is being borrowed)
- - 'interest_rate' (interest rate of the loan)
- - 'borrower_income' (income of borrower)
- - 'debt_to_income' (how much debt the borrower is in as compared to their incomeP
- - 'num_of_accounts' (how many accounts with debt borrower has)
- - 'derogatory_marks' (derogatory marks in credit score)
- - 'total_debt' (overall borrower's debt)
+A logistic regression model was used in this project to predict based on the following variables if a loan is a "healthy loan" (0) or a "high-risk loan" (1) or `loan_status`:
+ - `loan_size` (how much money is being borrowed)
+ - `interest_rate` (interest rate of the loan)
+ - `borrower_income` (income of borrower)
+ - `debt_to_income` (how much debt the borrower is in as compared to their incomeP
+ - `num_of_accounts` (how many accounts with debt borrower has)
+ - `derogatory_marks` (derogatory marks in credit score)
+ - `total_debt` (overall borrower's debt)
 All of these variables are telling wether the borrower is able to have a healthy or high-risk loan.
 
 To create the logistic regression model the following steps in the code were followed:
 1. Upload the data and convert to Pandas dataframe
-2. Split data into 'X' (all the above mentioned variables than can impact loan status) and 'y' ('loan_status')
+2. Split data into `X` (all the above mentioned variables than can impact loan status) and `y` (`loan_status`)
 3. Split data into train and test data
-4. Scale 'X' train and test datasets
+4. Scale `X` train and test datasets
 5. Fit the train data
 6. Create predicitions based on test data
 7. Evaluate model preformance. Determine confusion matrix using the predictions and test data. Determine classification report using the predictions and test data
