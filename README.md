@@ -19,9 +19,7 @@ To create the logistic regression model the following steps in the code were fol
 4. Scale 'X' train and test datasets
 5. Fit the train data
 6. Create predicitions based on test data
-7. Evaluate model preformance.
-   \7.1. Determine confusion matrix using the predictions and test data
-   \7.2. Determine classification report using the predictions and test data
+7. Evaluate model preformance. Determine confusion matrix using the predictions and test data. Determine classification report using the predictions and test data
 
 Logistic regression model was ideal for this data set since the results were binary (high-risk or healthy loan) and the data is relatively simplistic.
 
