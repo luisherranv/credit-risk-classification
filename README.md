@@ -1,5 +1,4 @@
 # Logistic Regression Model Challenge
-## by Luis Herran
 
 
 ## Overview 
